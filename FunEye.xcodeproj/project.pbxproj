@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7AD00E1CC69CBF00AADAFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7AD00D1CC69CBF00AADAFA /* AppDelegate.swift */; };
+		AA7AD0101CC69CBF00AADAFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7AD00F1CC69CBF00AADAFA /* ViewController.swift */; };
+		AA7AD0131CC69CBF00AADAFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7AD0111CC69CBF00AADAFA /* Main.storyboard */; };
+		AA7AD0151CC69CBF00AADAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7AD0141CC69CBF00AADAFA /* Assets.xcassets */; };
+		AA7AD0181CC69CBF00AADAFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7AD0161CC69CBF00AADAFA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA7AD00A1CC69CBF00AADAFA /* FunEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7AD00D1CC69CBF00AADAFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA7AD00F1CC69CBF00AADAFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA7AD0121CC69CBF00AADAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7AD0141CC69CBF00AADAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7AD0171CC69CBF00AADAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA7AD0191CC69CBF00AADAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7AD0071CC69CBF00AADAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA7AD0011CC69CBF00AADAFA = {
+			isa = PBXGroup;
+			children = (
+				AA7AD00C1CC69CBF00AADAFA /* FunEye */,
+				AA7AD00B1CC69CBF00AADAFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7AD00B1CC69CBF00AADAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7AD00A1CC69CBF00AADAFA /* FunEye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7AD00C1CC69CBF00AADAFA /* FunEye */ = {
+			isa = PBXGroup;
+			children = (
+				AA7AD00D1CC69CBF00AADAFA /* AppDelegate.swift */,
+				AA7AD00F1CC69CBF00AADAFA /* ViewController.swift */,
+				AA7AD0111CC69CBF00AADAFA /* Main.storyboard */,
+				AA7AD0141CC69CBF00AADAFA /* Assets.xcassets */,
+				AA7AD0161CC69CBF00AADAFA /* LaunchScreen.storyboard */,
+				AA7AD0191CC69CBF00AADAFA /* Info.plist */,
+			);
+			path = FunEye;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7AD0091CC69CBF00AADAFA /* FunEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7AD01C1CC69CBF00AADAFA /* Build configuration list for PBXNativeTarget "FunEye" */;
+			buildPhases = (
+				AA7AD0061CC69CBF00AADAFA /* Sources */,
+				AA7AD0071CC69CBF00AADAFA /* Frameworks */,
+				AA7AD0081CC69CBF00AADAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunEye;
+			productName = FunEye;
+			productReference = AA7AD00A1CC69CBF00AADAFA /* FunEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7AD0021CC69CBF00AADAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lê Thanh Tùng";
+				TargetAttributes = {
+					AA7AD0091CC69CBF00AADAFA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AA7AD0051CC69CBF00AADAFA /* Build configuration list for PBXProject "FunEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7AD0011CC69CBF00AADAFA;
+			productRefGroup = AA7AD00B1CC69CBF00AADAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7AD0091CC69CBF00AADAFA /* FunEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7AD0081CC69CBF00AADAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7AD0181CC69CBF00AADAFA /* LaunchScreen.storyboard in Resources */,
+				AA7AD0151CC69CBF00AADAFA /* Assets.xcassets in Resources */,
+				AA7AD0131CC69CBF00AADAFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7AD0061CC69CBF00AADAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7AD0101CC69CBF00AADAFA /* ViewController.swift in Sources */,
+				AA7AD00E1CC69CBF00AADAFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA7AD0111CC69CBF00AADAFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7AD0121CC69CBF00AADAFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7AD0161CC69CBF00AADAFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7AD0171CC69CBF00AADAFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7AD01A1CC69CBF00AADAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA7AD01B1CC69CBF00AADAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7AD01D1CC69CBF00AADAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunEye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ylinkee.FunEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA7AD01E1CC69CBF00AADAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunEye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ylinkee.FunEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7AD0051CC69CBF00AADAFA /* Build configuration list for PBXProject "FunEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7AD01A1CC69CBF00AADAFA /* Debug */,
+				AA7AD01B1CC69CBF00AADAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7AD01C1CC69CBF00AADAFA /* Build configuration list for PBXNativeTarget "FunEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7AD01D1CC69CBF00AADAFA /* Debug */,
+				AA7AD01E1CC69CBF00AADAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7AD0021CC69CBF00AADAFA /* Project object */;
+}
