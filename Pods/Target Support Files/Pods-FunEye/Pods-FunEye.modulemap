@@ -1,0 +1,6 @@
+framework module Pods_FunEye {
+  umbrella header "Pods-FunEye-umbrella.h"
+
+  export *
+  module * { export * }
+}
